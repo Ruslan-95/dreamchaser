@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    font-family: bork,Helvetica,Arial,sans-serif;
+    min-width: 320px;
+    color: #fff;
+    background-color: #3a3330;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.grid-item {
+flex: 0 1 auto;
+}
+
+.wrapper {
+background-color: #241D1A;
+width: 1200px;
+margin: 0 auto;
+position: relative;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-content: stretch;
+justify-content: flex-start;
+}
+
+.grid {
+    width: 400px;
+}
+
+.title {
+    font-size: 28px;
+    font-family: bork,Helvetica,Arial,sans-serif;
+    color: #fff;
+    line-height: 1.25;
+    text-align: center;
+    margin-top: 133px;
+    font-weight: 300;
+}
+
+.bork-link {
+    pointer-events: all;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    will-change: color;
+    font-size: 16px;
+    line-height: inherit;
+    color: #9d9390;
+    display: inline-block;
+}
+.bork-link:hover {
+    color: #fff;
+}
